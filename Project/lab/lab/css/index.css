@@ -1,0 +1,49 @@
+.c1{width: 10%; text-align: center;}
+.c2{width: 15%; text-align: center;}
+.cid{width: 30%; text-align: center;}
+.inputsearch{ width: 155px; }
+.btnadd, .btndelete{ width: 90px; height: 30px; line-height: 30px; border: none; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.btnadd{ background: #FFA500; color: #fff; }
+.btndelete{ background: #fafafa; border: 1px solid #ddd; cursor: pointer;}
+.inputsearch, .inputpwd{ height: 28px; line-height: 28px; border: 1px solid #ddd; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.inputsearch{ width: 155px; }
+.mr{ margin-left: 5px; cursor: pointer;}
+.tableheader{ background-color: #FFA500; text-align: center;}
+.ticketout{ overflow:hidden; margin: 5px auto 10px auto; width: 100%; }
+.ticketout .tableheader, .ticketout .tableheader:hover{ height:32px; line-height: 34px; background: #FFA500; border-top: 1px solid #def; border-bottom: 1px solid #def;}
+.ticketout tr{ border-bottom: 1px solid #FFA500;}
+.ticketout th{padding:0 10px; color: #38e}
+.ticketout td{padding:10px; text-align:center;}
+.ticketout tr:hover{ background: #fafafa;}
+.ticketout a{ text-decoration: none;}
+.panes { margin-top: 15px;}
+.btnpay, .btnpaycancel, .btnpaychange{ width: 90px; height: 28px; line-height: 28px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; vertical-align: middle;}
+.btnpay{ border: none; background: #FFA500; color: #fff;}
+.btnpaycancel, .btnpaychange{ background: #fafafa; border: 1px solid #ddd;}
+.ordercons{ position:relative; margin: 5px auto; line-height:30px; }
+.ordercons input{ font-size: 14px;}
+.otitle{ display: inline-block; left: 0; top: 0; width: 100px; height:35px;  }
+.tags, .ordertypeselect{ clear:both; height:30px; list-style:none outside none; margin:0 0 -1px; padding:0; position:relative; left: 80px; float: left;}
+.tags li , .ordertypeselect li{ cursor:pointer; float:left; margin-right:6px; }
+.tags li a , .ordertypeselect li a{ color:#36C; display:block; line-height:30px; padding:0 1em; text-decoration:none; }
+.tags li.current { border-bottom-style:none; font-weight:700; height:30px; }
+.tags li.current a { color:#C63; outline:0; }
+.myorder{ clear: both; overflow: hidden; margin: 75px auto 45px auto; padding: 0; width:1000px; border: 1px solid #ddd;}
+
+.tips{ margin-top: 20px; padding: 10px; border-top: 1px dashed #ddd; }
+.tips p{ line-height: 25px;}
+
+.blue{color: blue;}
+.red{color: red;}
+.green{color: green;}
+
+.myorder{ clear: both; overflow: hidden; margin: 75px auto 45px auto; padding: 0; width:1000px; border: 1px solid #ddd;}
+.position{ clear:both; height:38px; line-height:38px; text-indent:50px; background:url(../images/line.png) repeat-x; border-bottom: 1px solid #ddd;}
+.orderleft{ width: 160px; min-height:900px; background: #FFA500; line-height: 40px; border-right: 1px solid #ddd;}
+.orderleft ul{ margin: 0; padding: 0;}
+.orderleft ul li{ height: 40px; width: 100%; text-align: center;}
+.orderleft ul li a{ text-decoration: none; color: black;}
+.orderright{ padding:20px; width: 790px;}
+.infosurrent{ background: bisque; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; border-right:1px solid #fff; color: black;}
+.orderleft .infosurrent a{ color: black;}
+.ordercontact{ padding: 10px 0;}

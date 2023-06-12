@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>登录</title>
+
+  <script type="text/javascript">
+    function go(){
+      var userFormElt = document.getElementById("userForm");
+      userFormElt.action = "";//设置表单目标url
+      userFormElt.submit();
+      window.location = "../core_func/home.html";
+    }
+  </script>
+
+</head>
+<body>
+<div id="container" style="height: 100%; width:100%">
+
+  <div style="background-color:#FFA500">
+    <h1 style="text-align: center;margin-bottom: 0">火车购票系统</h1></div>
+  <div style="background-color: bisque;height:600px;width:100%;float:left;">
+    <img src="../resource/img.png" style="height:100%;width:65%"/>
+    <div style="background-color: bisque; height: 100%;width:35%;float:right">
+
+      <form id="userForm" method="post" align="center">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        用户名&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="user" name="user" maxlength=14/>
+        <span id="span1" style="position: fixed"></span>
+        <br>
+        密码&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="password" name="password" />
+        <span id="span3" style="position: fixed"></span>
+        <br>
+        <input type="button" value="确认" id="submitBtn" onclick="go();" style="height: 25px; width: 50px; margin-top: 10px ; background-color: #FFA500; cursor: pointer; border-color: bisque;"/>
+      </form>
+    </div>
+  </div>
+  <div style="background-color:#FFA500;clear:both;text-align:center;height:100px;width:100%;position: fixed;bottom: 0;">
+    <p style="font-family:arial;color:black;font-size:30px;">boy next door</p></div>
+
+</div>
+</body>
+</html>
